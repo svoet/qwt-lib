@@ -10,177 +10,177 @@
 
 HEADERS += \
     qwt.h \
-    qwt_abstract_scale_draw.h \
-    qwt_clipper.h \
-    qwt_color_map.h \
-    qwt_compat.h \
-    qwt_column_symbol.h \
-    qwt_date.h \
-    qwt_date_scale_draw.h \
-    qwt_date_scale_engine.h \
-    qwt_dyngrid_layout.h \
-    qwt_global.h \
-    qwt_graphic.h \
-    qwt_interval.h \
-    qwt_interval_symbol.h \
-    qwt_math.h \
-    qwt_magnifier.h \
-    qwt_null_paintdevice.h \
-    qwt_painter.h \
-    qwt_painter_command.h \
-    qwt_panner.h \
-    qwt_picker.h \
-    qwt_picker_machine.h \
-    qwt_pixel_matrix.h \
-    qwt_point_3d.h \
-    qwt_point_polar.h \
-    qwt_round_scale_draw.h \
-    qwt_scale_div.h \
-    qwt_scale_draw.h \
-    qwt_scale_engine.h \
-    qwt_scale_map.h \
-    qwt_spline.h \
-    qwt_symbol.h \
-    qwt_system_clock.h \
-    qwt_text_engine.h \
-    qwt_text_label.h \
-    qwt_text.h \
-    qwt_transform.h \
-    qwt_widget_overlay.h
+    qwt/qwt_abstract_scale_draw.h \
+    qwt/qwt_clipper.h \
+    qwt/qwt_color_map.h \
+    qwt/qwt_compat.h \
+    qwt/qwt_column_symbol.h \
+    qwt/qwt_date.h \
+    qwt/qwt_date_scale_draw.h \
+    qwt/qwt_date_scale_engine.h \
+    qwt/qwt_dyngrid_layout.h \
+    qwt/qwt_global.h \
+    qwt/qwt_graphic.h \
+    qwt/qwt_interval.h \
+    qwt/qwt_interval_symbol.h \
+    qwt/qwt_math.h \
+    qwt/qwt_magnifier.h \
+    qwt/qwt_null_paintdevice.h \
+    qwt/qwt_painter.h \
+    qwt/qwt_painter_command.h \
+    qwt/qwt_panner.h \
+    qwt/qwt_picker.h \
+    qwt/qwt_picker_machine.h \
+    qwt/qwt_pixel_matrix.h \
+    qwt/qwt_point_3d.h \
+    qwt/qwt_point_polar.h \
+    qwt/qwt_round_scale_draw.h \
+    qwt/qwt_scale_div.h \
+    qwt/qwt_scale_draw.h \
+    qwt/qwt_scale_engine.h \
+    qwt/qwt_scale_map.h \
+    qwt/qwt_spline.h \
+    qwt/qwt_symbol.h \
+    qwt/qwt_system_clock.h \
+    qwt/qwt_text_engine.h \
+    qwt/qwt_text_label.h \
+    qwt/qwt_text.h \
+    qwt/qwt_transform.h \
+    qwt/qwt_widget_overlay.h
 
 SOURCES += \
-    qwt_abstract_scale_draw.cpp \
-    qwt_clipper.cpp \
-    qwt_color_map.cpp \
-    qwt_column_symbol.cpp \
-    qwt_date.cpp \
-    qwt_date_scale_draw.cpp \
-    qwt_date_scale_engine.cpp \
-    qwt_dyngrid_layout.cpp \
-    qwt_event_pattern.cpp \
-    qwt_graphic.cpp \
-    qwt_interval.cpp \
-    qwt_interval_symbol.cpp \
-    qwt_math.cpp \
-    qwt_magnifier.cpp \
-    qwt_null_paintdevice.cpp \
-    qwt_painter.cpp \
-    qwt_painter_command.cpp \
-    qwt_panner.cpp \
-    qwt_picker.cpp \
-    qwt_picker_machine.cpp \
-    qwt_pixel_matrix.cpp \
-    qwt_point_3d.cpp \
-    qwt_point_polar.cpp \
-    qwt_round_scale_draw.cpp \
-    qwt_scale_div.cpp \
-    qwt_scale_draw.cpp \
-    qwt_scale_map.cpp \
-    qwt_spline.cpp \
-    qwt_scale_engine.cpp \
-    qwt_symbol.cpp \
-    qwt_system_clock.cpp \
-    qwt_text_engine.cpp \
-    qwt_text_label.cpp \
-    qwt_text.cpp \
-    qwt_transform.cpp \
-    qwt_widget_overlay.cpp
+    qwt/qwt_abstract_scale_draw.cpp \
+    qwt/qwt_clipper.cpp \
+    qwt/qwt_color_map.cpp \
+    qwt/qwt_column_symbol.cpp \
+    qwt/qwt_date.cpp \
+    qwt/qwt_date_scale_draw.cpp \
+    qwt/qwt_date_scale_engine.cpp \
+    qwt/qwt_dyngrid_layout.cpp \
+    qwt/qwt_event_pattern.cpp \
+    qwt/qwt_graphic.cpp \
+    qwt/qwt_interval.cpp \
+    qwt/qwt_interval_symbol.cpp \
+    qwt/qwt_math.cpp \
+    qwt/qwt_magnifier.cpp \
+    qwt/qwt_null_paintdevice.cpp \
+    qwt/qwt_painter.cpp \
+    qwt/qwt_painter_command.cpp \
+    qwt/qwt_panner.cpp \
+    qwt/qwt_picker.cpp \
+    qwt/qwt_picker_machine.cpp \
+    qwt/qwt_pixel_matrix.cpp \
+    qwt/qwt_point_3d.cpp \
+    qwt/qwt_point_polar.cpp \
+    qwt/qwt_round_scale_draw.cpp \
+    qwt/qwt_scale_div.cpp \
+    qwt/qwt_scale_draw.cpp \
+    qwt/qwt_scale_map.cpp \
+    qwt/qwt_spline.cpp \
+    qwt/qwt_scale_engine.cpp \
+    qwt/qwt_symbol.cpp \
+    qwt/qwt_system_clock.cpp \
+    qwt/qwt_text_engine.cpp \
+    qwt/qwt_text_label.cpp \
+    qwt/qwt_text.cpp \
+    qwt/qwt_transform.cpp \
+    qwt/qwt_widget_overlay.cpp
 
  
 contains(QWT_CONFIG, QwtPlot) {
 
     HEADERS += \
-        qwt_curve_fitter.h \
-        qwt_event_pattern.h \
-        qwt_abstract_legend.h \
-        qwt_legend.h \
-        qwt_legend_data.h \
-        qwt_legend_label.h \
-        qwt_plot.h \
-        qwt_plot_renderer.h \
-        qwt_plot_curve.h \
-        qwt_plot_dict.h \
-        qwt_plot_directpainter.h \
-        qwt_plot_grid.h \
-        qwt_plot_histogram.h \
-        qwt_plot_item.h \
-        qwt_plot_abstract_barchart.h \
-        qwt_plot_barchart.h \
-        qwt_plot_multi_barchart.h \
-        qwt_plot_intervalcurve.h \
-        qwt_plot_tradingcurve.h \
-        qwt_plot_layout.h \
-        qwt_plot_marker.h \
-        qwt_plot_zoneitem.h \
-        qwt_plot_textlabel.h \
-        qwt_plot_rasteritem.h \
-        qwt_plot_spectrogram.h \
-        qwt_plot_spectrocurve.h \
-        qwt_plot_scaleitem.h \
-        qwt_plot_legenditem.h \
-        qwt_plot_seriesitem.h \
-        qwt_plot_shapeitem.h \
-        qwt_plot_canvas.h \
-        qwt_plot_panner.h \
-        qwt_plot_picker.h \
-        qwt_plot_zoomer.h \
-        qwt_plot_magnifier.h \
-        qwt_plot_rescaler.h \
-        qwt_point_mapper.h \
-        qwt_raster_data.h \
-        qwt_matrix_raster_data.h \
-        qwt_sampling_thread.h \
-        qwt_samples.h \
-        qwt_series_data.h \
-        qwt_series_store.h \
-        qwt_point_data.h \
-        qwt_scale_widget.h 
+        qwt/qwt_curve_fitter.h \
+        qwt/qwt_event_pattern.h \
+        qwt/qwt_abstract_legend.h \
+        qwt/qwt_legend.h \
+        qwt/qwt_legend_data.h \
+        qwt/qwt_legend_label.h \
+        qwt/qwt_plot.h \
+        qwt/qwt_plot_renderer.h \
+        qwt/qwt_plot_curve.h \
+        qwt/qwt_plot_dict.h \
+        qwt/qwt_plot_directpainter.h \
+        qwt/qwt_plot_grid.h \
+        qwt/qwt_plot_histogram.h \
+        qwt/qwt_plot_item.h \
+        qwt/qwt_plot_abstract_barchart.h \
+        qwt/qwt_plot_barchart.h \
+        qwt/qwt_plot_multi_barchart.h \
+        qwt/qwt_plot_intervalcurve.h \
+        qwt/qwt_plot_tradingcurve.h \
+        qwt/qwt_plot_layout.h \
+        qwt/qwt_plot_marker.h \
+        qwt/qwt_plot_zoneitem.h \
+        qwt/qwt_plot_textlabel.h \
+        qwt/qwt_plot_rasteritem.h \
+        qwt/qwt_plot_spectrogram.h \
+        qwt/qwt_plot_spectrocurve.h \
+        qwt/qwt_plot_scaleitem.h \
+        qwt/qwt_plot_legenditem.h \
+        qwt/qwt_plot_seriesitem.h \
+        qwt/qwt_plot_shapeitem.h \
+        qwt/qwt_plot_canvas.h \
+        qwt/qwt_plot_panner.h \
+        qwt/qwt_plot_picker.h \
+        qwt/qwt_plot_zoomer.h \
+        qwt/qwt_plot_magnifier.h \
+        qwt/qwt_plot_rescaler.h \
+        qwt/qwt_point_mapper.h \
+        qwt/qwt_raster_data.h \
+        qwt/qwt_matrix_raster_data.h \
+        qwt/qwt_sampling_thread.h \
+        qwt/qwt_samples.h \
+        qwt/qwt_series_data.h \
+        qwt/qwt_series_store.h \
+        qwt/qwt_point_data.h \
+        qwt/qwt_scale_widget.h
 
     SOURCES += \
-        qwt_curve_fitter.cpp \
-        qwt_abstract_legend.cpp \
-        qwt_legend.cpp \
-        qwt_legend_data.cpp \
-        qwt_legend_label.cpp \
-        qwt_plot.cpp \
-        qwt_plot_renderer.cpp \
-        qwt_plot_xml.cpp \
-        qwt_plot_axis.cpp \
-        qwt_plot_curve.cpp \
-        qwt_plot_dict.cpp \
-        qwt_plot_directpainter.cpp \
-        qwt_plot_grid.cpp \
-        qwt_plot_histogram.cpp \
-        qwt_plot_item.cpp \
-        qwt_plot_abstract_barchart.cpp \
-        qwt_plot_barchart.cpp \
-        qwt_plot_multi_barchart.cpp \
-        qwt_plot_intervalcurve.cpp \
-        qwt_plot_zoneitem.cpp \
-        qwt_plot_tradingcurve.cpp \
-        qwt_plot_spectrogram.cpp \
-        qwt_plot_spectrocurve.cpp \
-        qwt_plot_scaleitem.cpp \
-        qwt_plot_legenditem.cpp \
-        qwt_plot_seriesitem.cpp \
-        qwt_plot_shapeitem.cpp \
-        qwt_plot_marker.cpp \
-        qwt_plot_textlabel.cpp \
-        qwt_plot_layout.cpp \
-        qwt_plot_canvas.cpp \
-        qwt_plot_panner.cpp \
-        qwt_plot_rasteritem.cpp \
-        qwt_plot_picker.cpp \
-        qwt_plot_zoomer.cpp \
-        qwt_plot_magnifier.cpp \
-        qwt_plot_rescaler.cpp \
-        qwt_point_mapper.cpp \
-        qwt_raster_data.cpp \
-        qwt_matrix_raster_data.cpp \
-        qwt_sampling_thread.cpp \
-        qwt_series_data.cpp \
-        qwt_point_data.cpp \
-        qwt_scale_widget.cpp 
+        qwt/qwt_curve_fitter.cpp \
+        qwt/qwt_abstract_legend.cpp \
+        qwt/qwt_legend.cpp \
+        qwt/qwt_legend_data.cpp \
+        qwt/qwt_legend_label.cpp \
+        qwt/qwt_plot.cpp \
+        qwt/qwt_plot_renderer.cpp \
+        qwt/qwt_plot_xml.cpp \
+        qwt/qwt_plot_axis.cpp \
+        qwt/qwt_plot_curve.cpp \
+        qwt/qwt_plot_dict.cpp \
+        qwt/qwt_plot_directpainter.cpp \
+        qwt/qwt_plot_grid.cpp \
+        qwt/qwt_plot_histogram.cpp \
+        qwt/qwt_plot_item.cpp \
+        qwt/qwt_plot_abstract_barchart.cpp \
+        qwt/qwt_plot_barchart.cpp \
+        qwt/qwt_plot_multi_barchart.cpp \
+        qwt/qwt_plot_intervalcurve.cpp \
+        qwt/qwt_plot_zoneitem.cpp \
+        qwt/qwt_plot_tradingcurve.cpp \
+        qwt/qwt_plot_spectrogram.cpp \
+        qwt/qwt_plot_spectrocurve.cpp \
+        qwt/qwt_plot_scaleitem.cpp \
+        qwt/qwt_plot_legenditem.cpp \
+        qwt/qwt_plot_seriesitem.cpp \
+        qwt/qwt_plot_shapeitem.cpp \
+        qwt/qwt_plot_marker.cpp \
+        qwt/qwt_plot_textlabel.cpp \
+        qwt/qwt_plot_layout.cpp \
+        qwt/qwt_plot_canvas.cpp \
+        qwt/qwt_plot_panner.cpp \
+        qwt/qwt_plot_rasteritem.cpp \
+        qwt/qwt_plot_picker.cpp \
+        qwt/qwt_plot_zoomer.cpp \
+        qwt/qwt_plot_magnifier.cpp \
+        qwt/qwt_plot_rescaler.cpp \
+        qwt/qwt_point_mapper.cpp \
+        qwt/qwt_raster_data.cpp \
+        qwt/qwt_matrix_raster_data.cpp \
+        qwt/qwt_sampling_thread.cpp \
+        qwt/qwt_series_data.cpp \
+        qwt/qwt_point_data.cpp \
+        qwt/qwt_scale_widget.cpp
 }
 
 greaterThan(QT_MAJOR_VERSION, 4) {
@@ -198,8 +198,8 @@ contains(QWT_CONFIG, QwtSvg) {
 
     QT += svg
 
-    HEADERS += qwt_plot_svgitem.h
-    SOURCES += qwt_plot_svgitem.cpp 
+    HEADERS += qwt/qwt_plot_svgitem.h
+    SOURCES += qwt/qwt_plot_svgitem.cpp
 }
 else {
 
@@ -210,8 +210,8 @@ contains(QWT_CONFIG, QwtOpenGL) {
 
     QT += opengl
 
-    HEADERS += qwt_plot_glcanvas.h
-    SOURCES += qwt_plot_glcanvas.cpp
+    HEADERS += qwt/qwt_plot_glcanvas.h
+    SOURCES += qwt/qwt_plot_glcanvas.cpp
 }
 else {
 
@@ -221,32 +221,32 @@ else {
 contains(QWT_CONFIG, QwtWidgets) {
 
     HEADERS += \
-        qwt_abstract_slider.h \
-        qwt_abstract_scale.h \
-        qwt_arrow_button.h \
-        qwt_analog_clock.h \
-        qwt_compass.h \
-        qwt_compass_rose.h \
-        qwt_counter.h \
-        qwt_dial.h \
-        qwt_dial_needle.h \
-        qwt_knob.h \
-        qwt_slider.h \
-        qwt_thermo.h \
-        qwt_wheel.h
+        qwt/qwt_abstract_slider.h \
+        qwt/qwt_abstract_scale.h \
+        qwt/qwt_arrow_button.h \
+        qwt/qwt_analog_clock.h \
+        qwt/qwt_compass.h \
+        qwt/qwt_compass_rose.h \
+        qwt/qwt_counter.h \
+        qwt/qwt_dial.h \
+        qwt/qwt_dial_needle.h \
+        qwt/qwt_knob.h \
+        qwt/qwt_slider.h \
+        qwt/qwt_thermo.h \
+        qwt/qwt_wheel.h
     
     SOURCES += \
-        qwt_abstract_slider.cpp \
-        qwt_abstract_scale.cpp \
-        qwt_arrow_button.cpp \
-        qwt_analog_clock.cpp \
-        qwt_compass.cpp \
-        qwt_compass_rose.cpp \
-        qwt_counter.cpp \
-        qwt_dial.cpp \
-        qwt_dial_needle.cpp \
-        qwt_knob.cpp \
-        qwt_slider.cpp \
-        qwt_thermo.cpp \
-        qwt_wheel.cpp
+        qwt/qwt_abstract_slider.cpp \
+        qwt/qwt_abstract_scale.cpp \
+        qwt/qwt_arrow_button.cpp \
+        qwt/qwt_analog_clock.cpp \
+        qwt/qwt_compass.cpp \
+        qwt/qwt_compass_rose.cpp \
+        qwt/qwt_counter.cpp \
+        qwt/qwt_dial.cpp \
+        qwt/qwt_dial_needle.cpp \
+        qwt/qwt_knob.cpp \
+        qwt/qwt_slider.cpp \
+        qwt/qwt_thermo.cpp \
+        qwt/qwt_wheel.cpp
 }
