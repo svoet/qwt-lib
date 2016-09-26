@@ -25,7 +25,8 @@ include( $${QWT_ROOT}/qwtfunctions.pri )
 TEMPLATE          = lib
 TARGET            = $$qwtLibraryTarget(qwt)
 
-DESTDIR           = $$shadowed($$PWD)
+# default DESTDIR
+#DESTDIR           = $$shadowed($$PWD)
 
 
 contains(QWT_CONFIG, QwtDll) {
