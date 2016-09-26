@@ -116,7 +116,8 @@ qtHaveModule(svg):      QWT_CONFIG     += QwtSvg
 # If you want to use a OpenGL plot canvas
 ######################################################################
 
-qtHaveModule(opengl):   QWT_CONFIG     += QwtOpenGL
+# disable opengl due to winrt deployment issues
+#qtHaveModule(opengl):   QWT_CONFIG     += QwtOpenGL
 
 ######################################################################
 # You can use the MathML renderer of the Qt solutions package to 
