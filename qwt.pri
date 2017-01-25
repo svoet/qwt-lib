@@ -220,6 +220,8 @@ else {
 
 contains(QWT_CONFIG, QwtWidgets) {
 
+    QT += widgets
+
     HEADERS += \
         qwt/qwt_abstract_slider.h \
         qwt/qwt_abstract_scale.h \
