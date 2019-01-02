@@ -74,7 +74,11 @@ QWT_INSTALL_FEATURES  = $${QWT_INSTALL_PREFIX}/features
 # it will be a static library.
 ######################################################################
 
-QWT_CONFIG += QwtDll
+ios {
+    # iOS need static build!
+} else {
+    QWT_CONFIG += QwtDll
+}
 
 ######################################################################
 # Install the library

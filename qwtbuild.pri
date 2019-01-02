@@ -11,7 +11,7 @@
 # qmake internal options
 ######################################################################
 
-CONFIG           += qt     
+CONFIG           += qt
 CONFIG           += warn_on
 CONFIG           += no_keywords
 CONFIG           += silent
