@@ -604,26 +604,7 @@ int QwtDate::weekNumber( const QDate &date, Week0Type type )
  */
 int QwtDate::utcOffset( const QDateTime &dateTime )
 {
-    int seconds = 0;
-
-    switch( dateTime.timeSpec() )
-    {
-        case Qt::UTC:
-        {
-            break;
-        }
-        case Qt::OffsetFromUTC:
-        {
-            seconds = dateTime.utcOffset();
-        }
-        default:
-        {
-            const QDateTime dt1( dateTime.date(), dateTime.time(), Qt::UTC );
-            seconds = dateTime.secsTo( dt1 );
-        }
-    }
-
-    return seconds;
+    return dateTime.offsetFromUtc();
 }
 
 /*!
