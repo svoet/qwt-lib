@@ -97,7 +97,7 @@ QwtLegendLabel::QwtLegendLabel( QWidget *parent ):
     QwtTextLabel( parent )
 {
     d_data = new PrivateData;
-    setMargin( Margin );
+    setContentsMargins( Margin , Margin , Margin , Margin );
     setIndent( Margin );
 }
 
@@ -141,7 +141,7 @@ void QwtLegendLabel::setItemMode( QwtLegendData::Mode mode )
 
         setFocusPolicy( ( mode != QwtLegendData::ReadOnly ) 
             ? Qt::TabFocus : Qt::NoFocus );
-        setMargin( ButtonFrame + Margin );
+        setContentsMargins( ButtonFrame + Margin , ButtonFrame + Margin , ButtonFrame + Margin , ButtonFrame + Margin );
 
         updateGeometry();
     }
