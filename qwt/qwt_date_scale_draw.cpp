@@ -271,9 +271,7 @@ QDateTime QwtDateScaleDraw::toDateTime( double value ) const
     if ( d_data->timeSpec == Qt::OffsetFromUTC )
     {
         dt = dt.addSecs( d_data->utcOffset );
-        //svoet: disabled this line because not implemented on Qt6
-        //TODO: I think it's not required either since the offset is set at object creation, check this!
-        //dt.setUtcOffset( d_data->utcOffset );
+        dt.setTimeZone(QTimeZone::fromSecondsAheadOfUtc(d_data->utcOffset)) 
     }
 
     return dt;

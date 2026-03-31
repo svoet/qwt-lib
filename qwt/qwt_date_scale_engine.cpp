@@ -1115,7 +1115,7 @@ QDateTime QwtDateScaleEngine::alignDate(
 
     if ( dateTime.timeSpec() == Qt::OffsetFromUTC )
     {
-        dt.setUtcOffset( 0 );
+        dt.setTimeZone(QTimeZone::fromSecondsAheadOfUtc(setUtcOffset( 0 ))) ;
     }
 
     switch( intervalType )
@@ -1273,7 +1273,7 @@ QDateTime QwtDateScaleEngine::alignDate(
 
     if ( dateTime.timeSpec() == Qt::OffsetFromUTC )
     {
-        dt.setUtcOffset( dateTime.utcOffset() );
+        dt.setTimeZone(QTimeZone::fromSecondsAheadOfUtc(setUtcOffset( dateTime.utcOffset() ))) ;
     }
 
     return dt;
@@ -1301,7 +1301,7 @@ QDateTime QwtDateScaleEngine::toDateTime( double value ) const
     if ( d_data->timeSpec == Qt::OffsetFromUTC )
     {
         dt = dt.addSecs( d_data->utcOffset );
-        dt.setUtcOffset( d_data->utcOffset );
+        dt.setTimeZone(QTimeZone::fromSecondsAheadOfUtc(setUtcOffset( d_data->utcOffset ))) ;
     }
 
     return dt;
