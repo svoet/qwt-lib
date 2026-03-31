@@ -66,7 +66,7 @@ public:
 
           - Qt::LeftButton + Qt::AltModifier
           - Qt::LeftButton + Qt::AltModifier
-          - Qt::MidButton
+          - Qt::MiddleButton
          */
         MouseSelect3,
 
@@ -93,7 +93,7 @@ public:
 
           - Qt::LeftButton + Qt::AltModifier + Qt::ShiftModifier
           - Qt::LeftButton + Qt::AltModifier | Qt::ShiftModifier
-          - Qt::MidButton + Qt::ShiftModifier
+          - Qt::MiddleButton + Qt::ShiftModifier
          */
         MouseSelect6,
 
