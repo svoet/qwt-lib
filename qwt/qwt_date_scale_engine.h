@@ -10,6 +10,7 @@
 #ifndef _QWT_DATE_SCALE_ENGINE_H_
 #define _QWT_DATE_SCALE_ENGINE_H_ 1
 
+#include <qtimezone.h>
 #include "qwt_date.h"
 #include "qwt_scale_engine.h"
 
