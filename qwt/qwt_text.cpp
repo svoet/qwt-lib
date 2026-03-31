@@ -10,6 +10,8 @@
 #include "qwt_text.h"
 #include "qwt_painter.h"
 #include "qwt_text_engine.h"
+#include <QGuiApplication>
+#include <QScreen>
 #include <qmap.h>
 #include <qfont.h>
 #include <qcolor.h>
@@ -17,7 +19,6 @@
 #include <qbrush.h>
 #include <qpainter.h>
 #include <qapplication.h>
-#include <qdesktopwidget.h>
 #include <qmath.h>
 
 class QwtTextEngineDict
@@ -492,7 +493,7 @@ double QwtText::heightForWidth( double width, const QFont &defaultFont ) const
     // We want to calculate in screen metrics. So
     // we need a font that uses screen metrics
 
-    const QFont font( usedFont( defaultFont ), QApplication::desktop() );
+    const QFont font( usedFont( defaultFont ), QGuiApplication::primaryScreen() );
 
     double h = 0;
 
@@ -536,7 +537,7 @@ QSizeF QwtText::textSize( const QFont &defaultFont ) const
     // We want to calculate in screen metrics. So
     // we need a font that uses screen metrics
 
-    const QFont font( usedFont( defaultFont ), QApplication::desktop() );
+    const QFont font( usedFont( defaultFont ), QGuiApplication::primaryScreen() );
 
     if ( !d_layoutCache->textSize.isValid()
         || d_layoutCache->font != font )
@@ -611,7 +612,7 @@ void QwtText::draw( QPainter *painter, const QRectF &rect ) const
         // We want to calculate in screen metrics. So
         // we need a font that uses screen metrics
 
-        const QFont font( painter->font(), QApplication::desktop() );
+        const QFont font( painter->font(), QGuiApplication::primaryScreen() );
 
         double left, right, top, bottom;
         d_data->textEngine->textMargins(

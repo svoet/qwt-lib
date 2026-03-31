@@ -16,7 +16,7 @@
 #include <qstyle.h>
 #include <qstyleoption.h>
 #include <qapplication.h>
-#include <qdatetime.h>
+#include <QElapsedTimer>
 
 #if QT_VERSION < 0x040601
 #define qFabs(x) ::fabs(x)
@@ -75,7 +75,7 @@ public:
 
     // for the flying wheel effect
     int timerId;
-    QTime time;
+    QElapsedTimer time;
     double speed;
     double mouseValue;
     double flyingValue;
@@ -1296,4 +1296,3 @@ double QwtWheel::alignedValue( double value ) const
 
     return value;
 }
-

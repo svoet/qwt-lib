@@ -16,7 +16,7 @@
 #include <qpen.h>
 #include <qpainter.h>
 #include <qmath.h>
-#include <qalgorithms.h>
+#include <algorithm>
 #if QT_VERSION >= 0x040400
 #include <qthread.h>
 #include <qfuture.h>
@@ -286,7 +286,7 @@ bool QwtPlotSpectrogram::testConrecFlag(
 void QwtPlotSpectrogram::setContourLevels( const QList<double> &levels )
 {
     d_data->contourLevels = levels;
-    qSort( d_data->contourLevels );
+    std::sort( d_data->contourLevels.begin(), d_data->contourLevels.end() );
 
     legendChanged();
     itemChanged();
